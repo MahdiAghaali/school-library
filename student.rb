@@ -10,7 +10,7 @@ class Student < Person
     '¯\(ツ)/¯'
   end
 
-  def student_class(param_class)
+  def student_class=(param_class)
     return if @classroom == param_class
 
     @classroom = param_class
