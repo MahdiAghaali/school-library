@@ -12,6 +12,6 @@ class Classroom
     return if @students.include? student
 
     @students.push(student)
-    student.student_class=(self)
+    student.student_class = (self)
   end
 end

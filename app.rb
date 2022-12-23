@@ -21,7 +21,7 @@ book2.add_rental('2022-12-23', person2)
 
 classroom = Classroom.new('ruby-101')
 classroom.add_student(person2)
-person3.student_class=(classroom)
+person3.student_class = (classroom)
 
 puts book1.rental_history
 puts book2.rental_history
