@@ -41,7 +41,6 @@ After you're finished please remove all the comments and instructions!
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
 - [👥 Authors](#authors)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -79,16 +78,13 @@ And all of this will be built in a beautiful and well-organized way!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Clone this repository in your computer
-> rub any of the ruby files
+In order to run this project locally enter the following commands in a command line tool
 
-### Prerequisites
-
-In order to run this project you need a Ruby compiler
-
-### Run tests
-
-To run tests, run the following command:
+```
+git clone https://github.com/MahdiAghaali/school-library/
+cd school-library
+ruby app.rb
+```
 
 <!--
 Example command:
@@ -112,7 +108,7 @@ Example command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/MahdiAghaali/school-library/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,7 +118,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,7 +128,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank Microverse for helping me learn ruby
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,7 +136,7 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
