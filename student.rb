@@ -9,4 +9,11 @@ class Student < Person
   def play_hooky
     '¯\(ツ)/¯'
   end
+
+  def student_class(param_class)
+    return if @classroom == param_class
+
+    @classroom = param_class
+    param_class.add_student(self)
+  end
 end
