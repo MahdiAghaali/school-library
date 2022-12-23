@@ -32,4 +32,9 @@ class Person < Nameable
   def correct_name
     @name
   end
+
+  def add_rental(date, book)
+    new_rent = Rental.new(date, book, self)
+    @rental_history.push(new_rent)
+  end
 end
