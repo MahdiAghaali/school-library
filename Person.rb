@@ -1,5 +1,5 @@
 class Person
-  def initialize(id, name = "Unknown", age, parent_permission: true)
+  def initialize(id, age, name = 'Unknown', parent_permission: true)
     @id = id
     @name = name
     @age = age
@@ -10,14 +10,15 @@ class Person
 
   private
 
-  def is_of_age?
-    if self.age >= 18 then return true
-    else return false end
+  def of_age?
+    return true if age >= 18
+
+    false
   end
 
-  public 
+  public
 
   def can_use_services?
-    self.is_of_age? || self.parent_permission
+    of_age? || parent_permission
   end
 end
