@@ -119,7 +119,7 @@ class App
     classroom = gets.chomp
     print 'Name: '
     name = gets.chomp
-    student = Student.new(age, classroom, name)
+    student = Student.new(age, name, classroom)
     @people.push(student)
     puts ''
     puts "Student \"#{student.name}\" added successfully."
