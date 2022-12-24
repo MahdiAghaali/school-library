@@ -64,7 +64,7 @@ class App
     puts 'List of people:'
     puts ''
     @people.each_with_index do |el, i|
-      puts "#{i + 1}- #{el.name}"
+      puts "#{i + 1}- ID: #{el.id} Name: #{el.name} Age: #{el.age}"
     end
     show_link_to_main
   end
