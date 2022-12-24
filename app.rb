@@ -162,6 +162,6 @@ class App
     @rental.filter do |el|
       puts "#{el.book.title} (#{el.date})" if el.person == @people[person_index.to_i - 1]
     end
-    show_link_to_main    
+    show_link_to_main
   end
 end
